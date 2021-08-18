@@ -1,0 +1,25 @@
+div.stugal-container {
+  display              : grid;
+  grid-gap             : 10px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content      : center;
+}
+
+.stugal-container .error {
+  color     : red;
+  text-align: center;
+}
+
+.stugal-container .image-container {
+  display        : block;
+  width          : 100%;
+  height         : 200px;
+  background-size: cover
+}
+
+.stugal-container .caption {
+  background-color: #666;
+  color           : white;
+  text-align      : center;
+  padding         : 2px;
+}
